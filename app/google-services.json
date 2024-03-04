@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "989324743468",
+    "project_id": "mini-clip-d15c0",
+    "storage_bucket": "mini-clip-d15c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989324743468:android:f14dc4717af3ae4ce79289",
+        "android_client_info": {
+          "package_name": "np.com.example.miniclip"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzEqBbjX3Moi_2UxNdNSmKauwt_d9-74Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

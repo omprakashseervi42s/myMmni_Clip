@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Mini Clip</string>
+    <string name="signup">Signup</string>
+    <string name="todo">TODO</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="email">Email</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="password">Password</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account">Don\'t have an account ?</string>
+    <string name="add_video">Add Video</string>
+    <string name="no">TODO</string>
+</resources>

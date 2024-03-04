@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/darkblack"
+    tools:context=".SignupActivity">
+
+    <ImageView
+        android:layout_width="165dp"
+        android:layout_height="191dp"
+        android:layout_marginTop="63dp"
+        android:src="@drawable/logo"
+        android:contentDescription="@string/todo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/signup"
+            android:textColor="#FFFF"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="32sp"
+            android:layout_margin="12dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/email_input"
+            android:background="@drawable/rounded_corner"
+            android:hint="@string/email"
+            android:textColorHint="#FFFFFF"
+            android:inputType="textEmailAddress"
+            android:textColor="#FFFFFF"
+            android:padding="12dp"
+            android:layout_margin="12dp"
+            android:autofillHints="" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/password_input"
+            android:background="@drawable/rounded_corner"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:padding="12dp"
+            android:layout_margin="12dp"
+            android:autofillHints="" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/confirm_password_input"
+            android:background="@drawable/rounded_corner"
+            android:hint="@string/confirm_password"
+            android:textColorHint="#FFFFFF"
+            android:textColor="#FFFFFF"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:layout_margin="12dp"
+            android:autofillHints="" />
+
+        <Button
+            android:id="@+id/submit_btn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="20dp"
+            android:padding="12dp"
+            android:text="SIGN UP"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#fe2b54"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="DuplicateSpeakableTextCheck,HardcodedText,TextSizeCheck" />
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/progress_bar"
+            android:layout_margin="12dp"
+            android:visibility="gone"
+            android:padding="12dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/already_have_an_account"
+            android:textColor="@color/my_primary"
+            android:id="@+id/go_to_login_btn"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="made With ❤️ by Omprakash Seervi"
+        android:layout_margin="25dp"
+        android:textColor="#fff" />
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
